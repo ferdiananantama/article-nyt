@@ -1,4 +1,4 @@
-import { MenuSquare, SearchCheck } from "lucide-react";
+import { MenuSquare } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 

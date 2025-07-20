@@ -14,15 +14,15 @@ export interface Result {
   subsection: string;
   nytdsection: string;
   adx_keywords: string;
-  column: any;
+  column: string | null;
   byline: string;
   type: string;
   title: string;
   abstract: string;
-  des_facet: string[];
-  org_facet: any[];
-  per_facet: any[];
-  geo_facet: any[];
+  des_facet: string[] | null;
+  org_facet: string[] | null;
+  per_facet: string[] | null;
+  geo_facet: string[] | null;
   media: Medum[];
   eta_id: number;
 }
