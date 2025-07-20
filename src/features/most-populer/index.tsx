@@ -27,7 +27,7 @@ export default function MostPopulerCardView() {
                   className="w-[300px] h-[200px] rounded-md object-cover  hover:scale-105 transition-all"
                 />
               ) : (
-                <div className="w-[300px] h-[200px] bg-gray-200 rounded-lg flex items-center justify-center text-sm text-gray-500">
+                <div className="bg-gray-200 h-[200px] rounded-md object-cover flex items-center justify-center text-sm text-gray-500">
                   No Image
                 </div>
               )}

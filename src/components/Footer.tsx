@@ -25,7 +25,7 @@ export default function Footer() {
             <Instagram color="#e4405f" />
           </div>
           <div className="text-[#4574a1] text-base font-normal leading-normal">
-            @2024 Tech Today. All rights reserved.
+            @2025 News Today. All rights reserved.
           </div>
         </div>
       </div>
